@@ -1,0 +1,46 @@
+/* 修改element ui 的默认样式 */
+.el-menu {
+  background: transparent;
+}
+.el-menu-item-group__title {
+  padding-top: 0;
+}
+/* 背景颜色 */
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active, .el-menu-item.is-active {
+  color: #fff;
+}
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item:hover, .el-menu--horizontal.el-menu--dark .el-submenu .el-submenu-title:hover, .el-menu-item:hover {
+  background-color: #47bac1;
+}
+.el-submenu .el-menu-item:hover, .el-submenu__title:hover {
+   background-color: #47bac1;
+}
+.el-submenu .el-menu {
+  background-color: #33a8af;
+}
+/* 整体向右偏移 */
+.el-menu .el-menu-item {
+   padding-left: 28px !important;
+}
+/* 修改字体 */
+.el-menu:nth-child(1) .el-menu-item:first-child {
+  font-size: 17px;
+}
+.el-menu .el-menu-item {
+  padding-left: 28px !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.el-menu .el-submenu .el-menu-item-group .el-menu-item {
+  padding-left: 48px !important;
+}
+.el-menu .el-submenu.is-opened .el-submenu .el-menu-item-group .el-menu-item {
+  padding-left: 60px !important;
+}
+.tmp-title {
+  padding-left: 8px !important;
+}
+.tmp-title.second {
+  font-size: 17px;
+}
